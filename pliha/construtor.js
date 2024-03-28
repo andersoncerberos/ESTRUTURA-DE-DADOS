@@ -91,11 +91,13 @@ console.log(pilha.isempty());
     }
     return binaryString;
 
+    
+  }
+
     console.log(decimalToBinary(10));
     console.log(decimalToBinary(25));
     console.log(decimalToBinary(233));
     console.log(decimalToBinary(1000));
 
 
-  }
      
