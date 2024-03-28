@@ -73,7 +73,7 @@ console.log(pilha.isempty());
  pilha.pop();
  pilha.print();
  pilha.pop();
-  console.log(pilha.isempty());
+console.log(pilha.isempty());
 
 
   function decimalToBinary(decNumber){
@@ -98,3 +98,4 @@ console.log(pilha.isempty());
 
 
   }
+     
