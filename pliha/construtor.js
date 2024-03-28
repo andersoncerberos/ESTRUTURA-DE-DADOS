@@ -86,7 +86,7 @@ console.log(pilha.isempty());
 
         decNumber = Math.floor(decNumber / 2);
     }
-    while(restStack.isempty()){
+    while(!restStack.isempty()){
         binaryString += restStack.pop().toString();
     }
     return binaryString;
