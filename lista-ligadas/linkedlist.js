@@ -19,7 +19,7 @@ function LinkedList() {
                 //obtem o ultimo item
                 current = current.next;
             }
-            //e atribui um novov elemento ao next para a ligação 
+            //e atribui um novo elemento ao next para a ligação 
             current.next = node;
         }
         length++;// incrementa o tamanho da lista e aponta para um undefined ate se quebrado para apontar para outro
